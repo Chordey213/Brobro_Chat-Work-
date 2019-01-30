@@ -1,0 +1,30 @@
+{
+  "name": "brobro_chat_work",
+  "version": "1.0.1",
+  "description": "a chat application using the MEAN stack with Socket.io",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "NodeJS",
+    "MEAN",
+    "Stack",
+    "Socket.io",
+    "ExpressJS"
+  ],
+  "author": "Cory Wallace",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13",
+    "nodemon": "^1.18.9",
+    "pug": "^2.0.3",
+    "socket.io": "^2.2.0"
+  }
+}
